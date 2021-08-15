@@ -1,0 +1,122 @@
+/* Universal Styles */
+html {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* Navigation */
+header {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  position: fixed;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+/* Logo */
+#logo {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: auto;
+  margin: auto;
+  padding-top: 80px;
+}
+
+/* Info */
+.info {
+  padding-top: 20px;
+  background-color: #dd6827;
+  Height: 200px;
+}
+
+.info p {
+  padding: 0 10px;
+}
+
+/* Quote */
+.quote {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote h3 {
+  font-weight: normal;
+  padding: 0 10px;
+}
+
+/* Portfolio */
+#portfolio {
+  width: 100%;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: inherit;
+  justify-content: space-around;
+}
+
+.pictures img {
+  width: 400px;
+  height: auto;
+}
+
+/* About */
+#about {
+  background-color: #dd6827;
+  height: 200px;
+}
+/* Footer */
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
